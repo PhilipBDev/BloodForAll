@@ -41,15 +41,15 @@ const DoughnutGraph = () => {
       },
     },
     responsive: true,
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
   };
 
   return (
-    <div className="p-2 flex flex-col justify-center text-center">
+    <div className="p-2 flex flex-col justify-center text-center items-center">
       <h1 className="p-2 mb-2 text-4xl text-red-500 font-bold shadow-md">
         Blood Type: Percentage of Population
       </h1>
-      <div className="flex flex-col justify-center text-center ">
+      <div className="flex flex-col justify-center text-center w-80 lg:w-3/6 pb-6">
         <Doughnut data={data} plugins={[ChartDataLabels]} options={options} />
       </div>
     </div>
