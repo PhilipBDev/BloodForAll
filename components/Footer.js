@@ -14,83 +14,147 @@ const Footer = () => {
             </a>
           </Link>
           <p class="mt-3 ml-3 text-sm text-white">
-            Air plant banjo lyft occupy retro adaptogen indego
+            Our mission is to provide blood for all who need it.
           </p>
         </div>
-        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left ">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4  text-center">
+            <h2 class="title-font font-bold text-white tracking-widest text-md mb-3 ">
               BLOOD BANKS
             </h2>
-            <nav class="list-none mb-10">
+            <nav class="list-none mb-10 ">
               <li>
-                <a class="text-white hover:text-gray-800">First Link</a>
+                <Link href="https://www.oneblood.org/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    OneBlood
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Second Link</a>
+                <Link href="https://www.redcross.org/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    American Red Cross
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Third Link</a>
+                <Link href="https://thebloodconnection.org/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    The Blood Connection
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Fourth Link</a>
+                <Link href="https://en.wikipedia.org/wiki/List_of_blood_donation_agencies_in_the_United_States">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    List of Blood Banks
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 text-center">
             <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">
               POSITIVE BLOOD
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">First Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/o-positive/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    O+
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Second Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/a-positive/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    A+
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Third Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/b-positive/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    B+
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Fourth Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/ab-positive/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    AB+
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4  text-center">
             <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">
               NEGATIVE BLOOD
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">First Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/o-negative/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    O-
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Second Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/a-negative/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    A-
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Third Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/b-negative/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    B-
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Fourth Link</a>
+                <Link href="https://www.bloodcenter.org/donate/blood-types/ab-negative/">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    AB-
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 text-center">
             <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">
               PLASMA & PLATELETS
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">First Link</a>
+                <Link href="https://www.versiti.org/ways-to-give/blood-donation/plasma-donation">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    Plasma Donation Info (1)
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Second Link</a>
+                <Link href="https://www.oneblood.org/about-donating/blood-donor-basics/donation-methods/plasma-donation.stml">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    Plasma Donation Info (2)
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Third Link</a>
+                <Link href="https://www.versiti.org/ways-to-give/blood-donation/platelet-donation">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    Platelet Donation Info (1)
+                  </a>
+                </Link>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Fourth Link</a>
+                <Link href="https://www.oneblood.org/about-donating/blood-donor-basics/donation-methods/platelet-donation.stml">
+                  <a class="text-white hover:text-yellow-500 hover:font-bold cursor-pointer">
+                    Platelet Donation Info (2)
+                  </a>
+                </Link>
               </li>
             </nav>
           </div>

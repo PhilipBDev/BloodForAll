@@ -14,6 +14,7 @@ const plasma = () => {
                   width={400}
                   height={400}
                   src="/plasma.jpg"
+                  priority={true}
                 />
               </div>
               <div className="pt-3">
@@ -33,31 +34,17 @@ const plasma = () => {
               </div>
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p class="leading-relaxed text-lg mb-4">
-                Meggings portland fingerstache lyft, post-ironic fixie man bun
-                banh mi umami everyday carry hexagon locavore direct trade art
-                party. Locavore small batch listicle gastropub farm-to-table
-                lumbersexual salvia messenger bag. Coloring book flannel
-                truffaut craft beer drinking vinegar sartorial, disrupt fashion
-                axe normcore meh butcher. Portland 90's scenester vexillologist
-                forage post-ironic asymmetrical, chartreuse disrupt butcher
-                paleo intelligentsia pabst before they sold out four loko. 3
-                wolf moon brooklyn.
+              <p class="leading-relaxed text-lg mb-4 text-center">
+                Plasma donations are typically used to treat severe trauma,
+                burns, shock injuries, certain conditions caused by cancer,liver
+                issues, and clotting disorders. The process for donating plasma
+                differs very little from donating blood, but other than taking a
+                few extra minutes you wouldn't even realize it. The best part of
+                donating plasma is that it can be frozen and stored for up to an
+                entire year after you donate! AB is known as the universal blood
+                type for plasma donations and can be given to anyone with any
+                blood type.
               </p>
-              <a class="text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
         </div>

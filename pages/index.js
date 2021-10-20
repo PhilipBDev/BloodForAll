@@ -23,18 +23,14 @@ export default function Home() {
         <div className="justify-center items-center flex flex-col pb-1 lg:px-6 pt-8">
           {user && (
             <>
-              <h1 className="font-bold text-xl pb-5">Hello, {user.name}!</h1>
+              <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
               <img src={user.picture} className="w-40 h-40 rounded-full" />
             </>
           )}
 
           <p className="pt-5 w-1/2 justify-center items-center flex text-center">
-            {' '}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error
-            numquam quos fuga explicabo unde aut quisquam, reprehenderit, quis
-            officiis vero nulla earum maxime aliquid temporibus quam in labore
-            molestias ducimus aliquam iste repudiandae voluptas consequuntur
-            aperiam!
+            Blood is made up of four main components. Red blood cells,
+            platelets, plasma and white blood cells.
           </p>
         </div>
       </div>
@@ -51,6 +47,7 @@ export default function Home() {
                 height={80}
                 class="object-cover object-center"
                 src="/blood-bag.svg"
+                priority={true}
               />
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -58,8 +55,7 @@ export default function Home() {
                 Donate Blood
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Whole blood can be donated every 56 days.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -83,8 +79,7 @@ export default function Home() {
                 Donate Platelets
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Platelets can be donated every 7 days.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -107,6 +102,7 @@ export default function Home() {
                 height={80}
                 class="object-cover object-center"
                 src="/platelet-bag.svg"
+                priority={true}
               />
             </div>
           </div>
@@ -117,6 +113,7 @@ export default function Home() {
                 height={80}
                 class="object-cover object-center"
                 src="/plasma-bag.svg"
+                priority={true}
               />
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -124,8 +121,7 @@ export default function Home() {
                 Donate Plasma
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Plasma can be donated every 28 days.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More

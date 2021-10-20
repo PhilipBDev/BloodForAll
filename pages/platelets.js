@@ -13,6 +13,7 @@ const plasma = () => {
                   width={400}
                   height={400}
                   src="/platelets.jpg"
+                  priority={true}
                 />
               </div>
             </div>
