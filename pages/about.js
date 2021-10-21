@@ -3,28 +3,7 @@ const about = () => {
     <>
       <div className="pt-12 flex justify-center items-center text-center pl-16 pr-16">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sunt
-          fuga cumque repellat ab doloribus ad autem quos ipsum, libero magnam
-          itaque voluptatem ea sit aliquid eius assumenda recusandae odio,
-          laboriosam labore iure expedita, aperiam eaque nulla. Quasi, in, rerum
-          quidem odio voluptates repellat quis est dignissimos minima voluptas,
-          asperiores blanditiis! Iure exercitationem necessitatibus, sequi odio
-          neque nisi corporis molestias non amet vel quibusdam blanditiis natus
-          repellat totam dolorem! Enim, culpa tempore voluptas hic assumenda
-          eveniet laboriosam fugit suscipit nisi architecto eos sint! Unde
-          ducimus mollitia praesentium nesciunt porro maxime magni perspiciatis
-          hic. Maxime, blanditiis quaerat tempora facilis dolorum quibusdam cum
-          distinctio atque? Eos veritatis, aperiam reiciendis voluptate incidunt
-          alias, error magni dolorem veniam libero ipsa doloribus voluptas
-          obcaecati? Numquam molestias maiores quos deleniti facere quisquam
-          harum delectus qui architecto fugit asperiores, dolore quis reiciendis
-          accusantium doloribus veritatis esse, perspiciatis voluptatem
-          adipisci, nam vero ut. Quia ad, voluptatum enim ex voluptates illo
-          praesentium aspernatur fugit minus nam at iure dignissimos ut iste. Id
-          facere dolores nesciunt similique vero animi nisi! Magnam sed repellat
-          vel iste recusandae. Tempora, praesentium. Omnis ipsa nobis voluptate
-          accusamus optio tempore tempora iure nihil, quaerat delectus! Quasi
-          aut placeat voluptates hic molestias corporis quis quos? Commodi.
+           BloodForAll is the Internet's number one resource for information on blood banks and the donation process. We'll teach you what type of donation, from blood to platelets to plasma, would be most beneficial to others depending on your blood type. For example, O- blood is best for blood donations while B+ should focus on donating platelets. With that said, no matter your type, donating blood, plasma, or platelets will help save a life!
         </p>
       </div>
       <section class="text-gray-600 body-font">
@@ -34,9 +13,7 @@ const about = () => {
               Our Team
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
+              Meet the team responsible for sharing information about the donation process through their experiences!
             </p>
           </div>
           <div class="flex flex-wrap text-center -m-2">
@@ -49,9 +26,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Holden Caulfield
+                    Joel Winger
                   </h2>
-                  <p class="text-gray-500">UI Designer</p>
+                  <p class="text-gray-500">CEO</p>
                 </div>
               </div>
             </div>
@@ -64,9 +41,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Henry Letham
+                    Abed Pudi
                   </h2>
-                  <p class="text-gray-500">CTO</p>
+                  <p class="text-gray-500">UI Design</p>
                 </div>
               </div>
             </div>
@@ -79,9 +56,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Oskar Blinde
+                    Annie Brie
                   </h2>
-                  <p class="text-gray-500">Founder</p>
+                  <p class="text-gray-500">Event Coordinatior</p>
                 </div>
               </div>
             </div>
@@ -93,8 +70,8 @@ const about = () => {
                   src="https://i.pravatar.cc/100?u=6"
                 ></img>
                 <div class="flex-grow">
-                  <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-                  <p class="text-gray-500">DevOps</p>
+                  <h2 class="text-gray-900 title-font font-medium">Britta Jacobs</h2>
+                  <p class="text-gray-500">Programmer</p>
                 </div>
               </div>
             </div>
@@ -107,9 +84,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Martin Eden
+                    Dean Chang
                   </h2>
-                  <p class="text-gray-500">Software Engineer</p>
+                  <p class="text-gray-500">Head of Donor Services</p>
                 </div>
               </div>
             </div>
@@ -122,9 +99,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Boris Kitua
+                    Bernie Bernz
                   </h2>
-                  <p class="text-gray-500">UX Researcher</p>
+                  <p class="text-gray-500">Lead Phlebotomist</p>
                 </div>
               </div>
             </div>
@@ -152,9 +129,9 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Alper Kamu
+                    Matthew McCree
                   </h2>
-                  <p class="text-gray-500">System</p>
+                  <p class="text-gray-500">Biologics Supervisor</p>
                 </div>
               </div>
             </div>
@@ -167,7 +144,7 @@ const about = () => {
                 ></img>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Rodrigo Monchi
+                    Ford Willingham 
                   </h2>
                   <p class="text-gray-500">Product Manager</p>
                 </div>
