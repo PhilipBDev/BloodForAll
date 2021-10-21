@@ -9,8 +9,7 @@ const contact = () => {
             Contact Us
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            Fill out the form below if you have any questions or concerns. We'll get back to you as soon as we can! :)
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
