@@ -9,16 +9,11 @@ const donate = () => {
             Donate Today!!
           </h1>
           <p className="pb-10">
-            Blood is made up of four main components. Red blood cells,
-            platelets, plasma and white blood cells.
+            Blood is made up of three main components that you can donate. Red blood cells,
+            platelets, and plasma. No matter what kind of donation you do, you'll be helping out tremendously by saving the lives of people in need!
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-            odit rem numquam illo inventore eligendi mollitia libero quas,
-            veritatis autem. Voluptatum a, temporibus iure fugit ipsum, deserunt
-            necessitatibus saepe expedita molestias accusamus architecto cumque.
-            Vero et labore voluptatum quasi qui alias maxime maiores voluptates,
-            doloribus ea expedita ipsum officiis quisquam.
+            It's pretty simple to get started! All you need to do to prepare is to eat a good, preferably non-greasy, meal and drink plenty of water! Walk-ins are typically accepted, though due to COVID restrictions your local blood bank may require an appointment ahead of time so be sure to give them a quick call first! After you arrive you'll do some paperwork, dedicate your time to sitting and possibly watch a movie (depending on what you donate, as platelets can take a few hours), and then you'll get a little snack and usually a small incentive gift for helping save a life!
           </p>
         </div>
       </div>
@@ -49,8 +44,7 @@ const donate = () => {
                   Blood
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  Blood is .
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
