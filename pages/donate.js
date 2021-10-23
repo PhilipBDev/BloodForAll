@@ -77,8 +77,7 @@ const donate = () => {
                   Platelets
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  Platelets are
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
@@ -111,8 +110,7 @@ const donate = () => {
                   Plasma
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  Plasma is 
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
