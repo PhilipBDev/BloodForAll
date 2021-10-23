@@ -44,7 +44,7 @@ const donate = () => {
                   Blood
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Blood is .
+                  Blood is always important to donate no matter what type you are! Every day patients are in need of blood, and it's up to you to help and help save lives by just spending less than an hour of your time every couple of months!
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
@@ -77,7 +77,7 @@ const donate = () => {
                   Platelets
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Platelets are
+                  Platelets are one of the most important components when it comes to treating cancer patients. They can be donated every 7 days, but they will expire only 5 days after leaving your body, which is why it's super important to donate them as often as possible!
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
@@ -110,7 +110,7 @@ const donate = () => {
                   Plasma
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Plasma is 
+                  Plasma is very important for treating burns and other serious injuries. It can be donated once per month, but if you donate whole blood you won't even have to worry about donating since phlebotomists will be able to get it along with your blood cells! 
                 </p>
                 <a class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
@@ -131,41 +131,6 @@ const donate = () => {
           </div>
         </div>
       </section>
-      <div className="text-center flex flex-wrap overflow-hidden justify-center lg:-mx-5 mb-8">
-        <div className="w-8/12">
-          <p className="pb-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-            amet dignissimos alias illum in quod dicta enim perferendis, minima
-            excepturi libero pariatur culpa delectus. Eum reprehenderit
-            cupiditate quidem, odio obcaecati unde? Provident, quia sequi ipsum
-            inventore at officia nihil ea? Magnam cupiditate tempore fuga
-            repudiandae officia in ex! Eligendi, dolore.
-          </p>
-          <ul className="pb-4">
-            <li>Fact 1</li>
-            <li>Fact 2</li>
-            <li>Fact 3</li>
-            <li>Fact 4</li>
-            <li>Fact 5</li>
-          </ul>
-          <p className="pb-4">
-            {' '}
-            Ducimus modi autem impedit fugiat veniam? Illo molestias
-            exercitationem aliquid assumenda quibusdam voluptate, ipsa error rem
-            autem iusto dicta sit? Illo minima sequi, aspernatur itaque qui
-            repudiandae dolor iste aliquid nam fugiat nostrum labore nulla eaque
-            velit ducimus ipsam ab. Tempore veniam velit dolorem nihil error?
-            Aut, voluptatum cupiditate eveniet consequuntur eligendi consectetur
-            reiciendis, eos sapiente veritatis dignissimos recusandae
-            praesentium dolore doloribus ipsa quo ratione quam obcaecati
-            delectus labore quasi, debitis veniam aperiam velit corrupti! Aut
-            distinctio eius eum aspernatur quas recusandae beatae soluta
-            provident adipisci nisi, asperiores in numquam animi minus, suscipit
-            sit assumenda nulla. Recusandae ut vitae quo dolores autem rem
-            voluptate id maxime! Maxime fuga dolor a distinctio corrupti!
-          </p>
-        </div>
-      </div>
     </>
   );
 };
