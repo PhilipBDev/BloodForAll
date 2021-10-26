@@ -17,7 +17,7 @@ const blood = () => {
             <p className="pt-10">
               Donating blood is a quick and easy process! All you need to do to
               prepare is eat a hearty breakfast and drink a lot of water (avoid
-              caffeine). Then simply vist a phlebotomist at your local blood
+              caffeine). Then simply visit a phlebotomist at your local blood
               bank or mobile blood bus!
             </p>
           </p>
