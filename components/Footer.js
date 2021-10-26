@@ -16,6 +16,11 @@ const Footer = () => {
           <p class="mt-3 ml-3 text-sm text-white">
             Our mission is to provide blood for all who need it.
           </p>
+          <div className="pt-5">
+            <Link href="/disclaimer">
+              <a className="underline font-bold">Disclaimer</a>
+            </Link>
+          </div>
         </div>
         <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left ">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4  text-center">

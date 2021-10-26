@@ -1,11 +1,11 @@
 const disclaimer = () => {
   return (
-    <div>
-      <h2 style="text-align: center;">
-        <b>DISCLAIMER</b>
-      </h2>
-      <p>Last updated: 2021-10-21</p>
-      <p>
+    <div className="text-center">
+      <h1 className="text-center mt-10 font-bold text-5xl underline">
+        DISCLAIMER
+      </h1>
+      <p className="mt-5">Last updated: 2021-10-21</p>
+      <p className="mt-5">
         <b>WEBSITE DISCLAIMER</b>
       </p>
       <p>
@@ -24,7 +24,7 @@ const disclaimer = () => {
         AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN
         RISK.
       </p>
-      <p>
+      <p className="mt-5">
         <b>EXTERNAL LINKS DISCLAIMER</b>
       </p>
       <p>
@@ -52,7 +52,7 @@ const disclaimer = () => {
         RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY
         PROVIDERS OF PRODUCTS OR SERVICES.
       </p>
-      <p>
+      <p className="mt-5">
         <b>PROFESSIONAL DISCLAIMER</b>
       </p>
       <p>
@@ -75,7 +75,7 @@ const disclaimer = () => {
         THE USE OR RELIANCE OF ANY INFORMATION CONTAINED ON THIS SITE IS SOLELY
         AT YOUR OWN RISK.
       </p>
-      <p>
+      <p className="mt-5">
         <b>TESTIMONIALS DISCLAIMER</b>
       </p>
       <p>
@@ -86,7 +86,9 @@ const disclaimer = () => {
         of our products and/or services. We do not claim, and you should not
         assume that all users will have the same experiences.
       </p>{' '}
-      <p>YOUR INDIVIDUAL RESULTS MAY VARY.</p>{' '}
+      <p className="mt-5">
+        <b>YOUR INDIVIDUAL RESULTS MAY VARY.</b>
+      </p>{' '}
       <p>
         The testimonials on the Site are submitted in various forms such as
         text, audio and/or video, and are reviewed by us before being posted.
@@ -99,7 +101,7 @@ const disclaimer = () => {
         The views and opinions contained in the testimonials belong solely to
         the individual user and do not reflect our views and opinions.
       </p>
-      <p>
+      <p className="mt-5">
         <b>ERRORS AND OMISSIONS DISCLAIMER</b>
       </p>
       <p>
@@ -120,7 +122,7 @@ const disclaimer = () => {
         information in this Site or for any consequential, special or similar
         damages, even if advised of the possibility of such damages.
       </p>
-      <p>
+      <p className="mt-5">
         <b>LOGOS AND TRADEMARKS DISCLAIMER</b>
       </p>
       <p>
@@ -130,7 +132,7 @@ const disclaimer = () => {
         imply or constitute any approval, endorsement or sponsorship of
         BloodForAll by such owners.
       </p>
-      <p>
+      <p className="mt-5">
         <b>CONTACT US</b>
       </p>
       <p>
@@ -138,7 +140,7 @@ const disclaimer = () => {
         or other inquiries, please contact us by email:{' '}
         <b>PhilipBDev(at)gmail.com</b>.
       </p>
-      <p style="margin-top: 5em; font-size: 0.7em;">
+      <p className="mt-5 mb-10">
         This <a href="https://policymaker.io/disclaimer/">Disclaimer</a> was
         created for <b>https://bloodforall.life</b> by{' '}
         <a href="https://policymaker.io">PolicyMaker.io</a> on 2021-10-21.
