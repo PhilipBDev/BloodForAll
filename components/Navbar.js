@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header className="bg-red-500 shadow-lg font-bold text-white">
       <div class="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
-        <Link href="http://localhost:3000/">
+        <Link href="/">
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 lg:absolute">
             <Image className="mx-2" src="/blood.svg" width={35} height={35} />
 

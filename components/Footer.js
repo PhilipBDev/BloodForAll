@@ -6,7 +6,7 @@ const Footer = () => {
     <footer class="text-white body-font bg-red-500">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center">
-          <Link href="http://localhost:3000/">
+          <Link href="/">
             <a class="flex title-font font-medium items-center justify-center text-white mb-4 md:mb-0">
               <Image src="/blood.svg" width={35} height={35} />
 
