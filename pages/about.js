@@ -49,7 +49,7 @@ const about = () => {
                 <Image
                   alt="team"
                   class="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="/avatars/2.jpg"
+                  src="/avatars/3.jpg"
                   priority={true}
                   width={64}
                   height={64}
@@ -67,7 +67,7 @@ const about = () => {
                 <Image
                   alt="team"
                   class="bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="/avatars/3.jpg"
+                  src="/avatars/2.jpg"
                   priority={true}
                   width={64}
                   height={64}
@@ -182,7 +182,7 @@ const about = () => {
                 ></Image>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Ford Willingham
+                    Shirley Baker
                   </h2>
                   <p class="text-gray-500">Product Manager</p>
                 </div>
