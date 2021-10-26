@@ -23,7 +23,7 @@ const donate = () => {
           {user && (
             <>
               <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
-              <img src={user.picture} className="w-7/12 h-7/12 rounded-full" />
+              <img src={user.picture} className="w-50 h-50 rounded-full" />
             </>
           )}
         </div>
