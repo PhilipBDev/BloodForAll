@@ -13,9 +13,6 @@ const Navbar = () => {
           </a>
         </Link>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center  justify-center text-lg">
-          <Link href="/donate" className="py-4 border-b-4 font-semibold">
-            <a className="mr-5 hover:underline hover:animate-pulse">DONATE</a>
-          </Link>
           <Link href="/blood" className="py-4 border-b-4 font-semibold">
             <a className="mr-5 hover:underline hover:animate-pulse">BLOOD</a>
           </Link>

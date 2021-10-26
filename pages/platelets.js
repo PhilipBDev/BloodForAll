@@ -18,22 +18,18 @@ const plasma = () => {
               </div>
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <p class="leading-relaxed text-lg mb-4">
-                 Platelets are small cells in your blood used for a multitude of reasons. They can be used to form clots to stop bleeding, fight cancer, and dealing with serious injuries. Platelets can be donated every 7 days, which is necessary if you can sinced they have to be used with 5 days from the time you donate! The only downside for donating only platelets is that it can take a bit of time, about 2 to 3 hours of your day, which is another reason why platelets are always in demand and why blood banks typically offer more incentives for platelet donations over blood donations.
-              <a class="text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+              <p class="text-center leading-relaxed text-lg mb-4">
+                Platelets are small cells in your blood used for a multitude of
+                reasons. They can be used to form clots to stop bleeding, fight
+                cancer, and dealing with serious injuries. Platelets can be
+                donated every 7 days, which is necessary if you can sinced they
+                have to be used with 5 days from the time you donate! The only
+                downside for donating only platelets is that it can take a bit
+                of time, about 2 to 3 hours of your day, which is another reason
+                why platelets are always in demand and why blood banks typically
+                offer more incentives for platelet donations over blood
+                donations.
+              </p>
             </div>
           </div>
         </div>

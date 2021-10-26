@@ -1,216 +1,181 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useUser } from '@auth0/nextjs-auth0';
 
-export default function Home() {
+const donate = () => {
   const { user, error, isLoading } = useUser();
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>{error.message}</div>;
 
-  console.log();
-
   return (
     <>
-      <div className="p-3 justify-center items-center flex flex-wrap overflow-hidden text-center">
-        <Head>
-          <title>BloodForAll</title>
-          <link
-            rel="icon"
-            href="https://www.svgrepo.com/show/164208/syringe.svg"
-          />
-        </Head>
+      <Head>
+        <title>BloodForAll</title>
+        <link
+          rel="icon"
+          href="https://www.svgrepo.com/show/164208/syringe.svg"
+        />
+      </Head>
 
-        <div className="justify-center items-center flex flex-col pb-1 lg:px-6 pt-8">
+      <div className="text-center flex justify-center items-center flex-col">
+        <div className="justify-center items-center flex flex-col lg:px-6 pt-8">
           {user && (
             <>
               <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
               <img src={user.picture} className="w-40 h-40 rounded-full" />
             </>
           )}
-
-          <p className="pt-5 w-1/2 justify-center items-center flex text-center">
-            Blood is made up of four main components. Red blood cells,
-            platelets, plasma and white blood cells.
+        </div>
+        <div className="w-8/12 text-lg">
+          <h1 className="pt-10 pb-10 text-red-500 font-bold text-3xl">
+            Donate Today!!
+          </h1>
+          <p className="pb-10">
+            Blood is made up of three main components that you can donate. Red
+            blood cells, platelets, and plasma. No matter what kind of donation
+            you do, you'll be helping out tremendously by saving the lives of
+            people in need!
+          </p>
+          <p>
+            It's pretty simple to get started! All you need to do to prepare is
+            to eat a good, preferably non-greasy, meal and drink plenty of
+            water! Walk-ins are typically accepted, though due to COVID
+            restrictions your local blood bank may require an appointment ahead
+            of time so be sure to give them a quick call first! After you arrive
+            you'll do some paperwork, dedicate your time to sitting and possibly
+            watch a movie (depending on what you donate, as platelets can take a
+            few hours), and then you'll get a little snack and usually a small
+            incentive gift for helping save a life!
           </p>
         </div>
       </div>
-
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-12 mx-auto">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
-            How You Can Help!
-          </h1>
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full border-solid border-red-500 border-2 flex-shrink-0">
-              <Image
-                width={80}
-                height={80}
-                class="object-cover object-center"
-                src="/blood-bag.svg"
-                priority={true}
-              />
-            </div>
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Donate Blood
-              </h2>
-              <p class="leading-relaxed text-base">
-                Whole blood can be donated every 56 days.
-              </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
+        <div class="container px-5 py-12 mx-auto flex flex-wrap">
+          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+            <Image
+              width={800}
+              height={800}
+              class="object-cover object-center"
+              src="/donate-today.png"
+              priority={true}
+            />
           </div>
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Donate Platelets
-              </h2>
-              <p class="leading-relaxed text-base">
-                Platelets can be donated every 7 days.
-              </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full border-solid border-yellow-500 border-2 flex-shrink-0">
-              <Image
-                width={80}
-                height={80}
-                class="object-cover object-center"
-                src="/platelet-bag.svg"
-                priority={true}
-              />
-            </div>
-          </div>
-          <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full border-solid border-blue-500 border-2 flex-shrink-0">
-              <Image
-                width={80}
-                height={80}
-                class="object-cover object-center"
-                src="/plasma-bag.svg"
-                priority={true}
-              />
-            </div>
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Donate Plasma
-              </h2>
-              <p class="leading-relaxed text-base">
-                Plasma can be donated every 28 days.
-              </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <button class="flex mx-auto mt-20 font-bold text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Donate today!
-          </button>
-        </div>
-      </section>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-            Testimonials
-          </h1>
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/2 w-full">
-              <div class="h-full bg-gray-100 p-8 rounded">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="block w-5 h-5 text-gray-400 mb-4"
-                  viewBox="0 0 975.036 975.036"
-                >
-                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                </svg>
-                <p class="leading-relaxed mb-6">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
+          <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full border-solid border-red-500 border-2 mb-3">
+                <Image
+                  width={30}
+                  height={30}
+                  class="object-cover object-center"
+                  src="/blood-bag.svg"
+                  priority={true}
+                />
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                  Blood
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Blood is always important to donate no matter what type you
+                  are! Every day patients are in need of blood, and it's up to
+                  you to help and help save lives by just spending less than an
+                  hour of your time every couple of months!
                 </p>
-                <a class="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://i.pravatar.cc/100?u=16"
-                    class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  ></img>
-                  <span class="flex-grow flex flex-col pl-4">
-                    <span class="title-font font-medium text-gray-900">
-                      Holden Caulfield
-                    </span>
-                    <span class="text-gray-500 text-sm">UI DEVELOPER</span>
-                  </span>
-                </a>
+                <Link href="/blood">
+                  <a class="mt-3 text-red-500 underline font-semibold cursor-pointer inline-flex items-center">
+                    Learn More
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
-            <div class="p-4 md:w-1/2 w-full">
-              <div class="h-full bg-gray-100 p-8 rounded">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="block w-5 h-5 text-gray-400 mb-4"
-                  viewBox="0 0 975.036 975.036"
-                >
-                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                </svg>
-                <p class="leading-relaxed mb-6">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
+            <div class="flex flex-col mb-10 lg:items-start items-center mt-3">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full border-solid border-yellow-500 border-2 mb-3">
+                <Image
+                  width={30}
+                  height={30}
+                  class="object-cover object-center"
+                  src="/platelet-bag.svg"
+                  priority={true}
+                />
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                  Platelets
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Platelets are one of the most important components when it
+                  comes to treating cancer patients. They can be donated every 7
+                  days, but they will expire only 5 days after leaving your
+                  body, which is why it's super important to donate them as
+                  often as possible!
                 </p>
-                <a class="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://i.pravatar.cc/100?u=1
-                    "
-                    class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                  ></img>
-                  <span class="flex-grow flex flex-col pl-4">
-                    <span class="title-font font-medium text-gray-900">
-                      Mara Kamu
-                    </span>
-                    <span class="text-gray-500 text-sm">DESIGNER</span>
-                  </span>
-                </a>
+                <Link href="/platelets">
+                  <a class="mt-3 text-yellow-500 underline font-semibold cursor-pointer inline-flex items-center">
+                    Learn More
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center mt-3">
+              <div class="w-12 h-12 inline-flex items-center justify-center rounded-full border-solid border-blue-500 border-2 mb-3">
+                <Image
+                  width={30}
+                  height={30}
+                  class="object-cover object-center"
+                  src="/plasma-bag.svg"
+                  priority={true}
+                />
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                  Plasma
+                </h2>
+                <p class="leading-relaxed text-base">
+                  Plasma is very important for treating burns and other serious
+                  injuries. It can be donated once per month, but if you donate
+                  whole blood you won't even have to worry about donating since
+                  phlebotomists will be able to get it along with your blood
+                  cells!
+                </p>
+                <Link href="/plasma">
+                  <a class="mt-3 text-blue-500 underline font-semibold cursor-pointer inline-flex items-center">
+                    Learn More
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-4 h-4 ml-2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -218,4 +183,6 @@ export default function Home() {
       </section>
     </>
   );
-}
+};
+
+export default donate;
