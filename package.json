@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build:vercel": "npm run install:bloodforall && npm run build && npm run build:bloodforall"
+    "build:vercel": "npm run install:BloodForAll && npm run build && npm run build:BloodForAll"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.6.1",
