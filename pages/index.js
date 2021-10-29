@@ -16,6 +16,13 @@ const donate = () => {
           rel="icon"
           href="https://www.svgrepo.com/show/164208/syringe.svg"
         />
+        <meta name="title" content="BloodForAll" />
+        <meta
+          name="description"
+          content="Everything you need to know about blood donations."
+        />
+        <meta name="image" content="https://i.imgur.com/nH6o5gA.png" />
+        <meta property="og:title" content="BloodForAll" />
         <meta property="og:image" content="https://i.imgur.com/nH6o5gA.png" />
       </Head>
 
