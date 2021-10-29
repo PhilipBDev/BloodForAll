@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useUser } from '@auth0/nextjs-auth0';
@@ -11,20 +11,29 @@ const donate = () => {
   return (
     <>
       <Head>
-        <title>BloodForAll</title>
         <link
           rel="icon"
           href="https://www.svgrepo.com/show/164208/syringe.svg"
         />
-        <meta name="title" content="BloodForAll" />
-        <meta
-          name="description"
-          content="Everything you need to know about blood donations."
-        />
-        <meta name="image" content="https://i.imgur.com/nH6o5gA.png" />
-        <meta property="og:title" content="BloodForAll" />
-        <meta property="og:image" content="https://i.imgur.com/nH6o5gA.png" />
       </Head>
+
+      <NextSeo
+        title="BloodForAll"
+        description="Everything you need to know about blood donations."
+        canonical="https://www.canonical.ie/"
+        openGraph={{
+          title: 'BloodForAll',
+          description: 'Everything you need to know about blood donations.',
+          images: [
+            {
+              url: 'https://i.imgur.com/nH6o5gA.png',
+              alt: 'Og Image',
+              type: 'image/jpeg',
+            },
+          ],
+          site_name: 'BloodForAll',
+        }}
+      />
 
       <div className="text-center flex justify-center items-center flex-col">
         <div className="justify-center items-center flex flex-col lg:px-6 pt-8">
