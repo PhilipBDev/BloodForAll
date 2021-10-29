@@ -1,4 +1,4 @@
-import { NextSeo } from 'next-seo';
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useUser } from '@auth0/nextjs-auth0';
@@ -10,28 +10,13 @@ const donate = () => {
 
   return (
     <>
-      <NextSeo
-        title="BloodForAll"
-        description="Everything you need to know about blood donations."
-        openGraph={{
-          title: 'BloodForAll',
-          description: 'Everything you need to know about blood donations.',
-          images: [
-            {
-              url: 'https://i.imgur.com/nH6o5gA.png',
-              alt: 'Og Image',
-              type: 'image/jpeg',
-            },
-          ],
-          site_name: 'BloodForAll',
-        }}
-        additionalLinkTags={[
-          {
-            rel: 'icon',
-            href: 'https://www.svgrepo.com/show/164208/syringe.svg',
-          },
-        ]}
-      />
+      <Head>
+        <title>BloodForAll</title>
+        <link
+          rel="icon"
+          href="https://www.svgrepo.com/show/164208/syringe.svg"
+        />
+      </Head>
 
       <div className="text-center flex justify-center items-center flex-col">
         <div className="justify-center items-center flex flex-col lg:px-6 pt-8">
