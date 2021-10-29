@@ -16,6 +16,7 @@ const donate = () => {
           rel="icon"
           href="https://www.svgrepo.com/show/164208/syringe.svg"
         />
+        <meta property="og:image" content="https://i.imgur.com/VEhoGWm.png" />
       </Head>
 
       <div className="text-center flex justify-center items-center flex-col">
