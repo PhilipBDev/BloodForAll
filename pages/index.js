@@ -10,14 +10,6 @@ const donate = () => {
 
   return (
     <>
-      <Head>
-        <title>BloodForAll</title>
-        <link
-          rel="icon"
-          href="https://www.svgrepo.com/show/164208/syringe.svg"
-        />
-      </Head>
-
       <NextSeo
         title="BloodForAll"
         description="Everything you need to know about blood donations."
@@ -33,6 +25,12 @@ const donate = () => {
           ],
           site_name: 'BloodForAll',
         }}
+        additionalLinkTags={[
+          {
+            rel: 'icon',
+            href: 'https://www.svgrepo.com/show/164208/syringe.svg',
+          },
+        ]}
       />
 
       <div className="text-center flex justify-center items-center flex-col">
