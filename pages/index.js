@@ -11,6 +11,7 @@ const donate = () => {
   return (
     <>
       <Head>
+        <title>BloodForAll</title>
         <link
           rel="icon"
           href="https://www.svgrepo.com/show/164208/syringe.svg"
@@ -20,7 +21,6 @@ const donate = () => {
       <NextSeo
         title="BloodForAll"
         description="Everything you need to know about blood donations."
-        canonical="https://www.canonical.ie/"
         openGraph={{
           title: 'BloodForAll',
           description: 'Everything you need to know about blood donations.',
