@@ -19,7 +19,7 @@ const donate = () => {
       </Head>
 
       <div className="text-center flex justify-center items-center flex-col">
-        <div className="justify-center items-center flex flex-col lg:px-6 pt-8">
+        <div className="justify-center items-center flex flex-col lg:px-6 pt-8 float-right">
           {user && (
             <>
               <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
