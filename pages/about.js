@@ -146,7 +146,7 @@ const about = () => {
                 ></Image>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Atticus Finch
+                    Atticus Glover
                   </h2>
                   <p class="text-gray-500">QA Engineer</p>
                 </div>
@@ -164,7 +164,7 @@ const about = () => {
                 ></Image>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Matthew McCree
+                    Chase McCree
                   </h2>
                   <p class="text-gray-500">Biologics Supervisor</p>
                 </div>
