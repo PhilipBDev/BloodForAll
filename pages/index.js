@@ -18,14 +18,14 @@ const donate = () => {
         />
       </Head>
 
-      <div className="text-center flex justify-center items-center flex-col">
-        <div className="justify-center items-center flex flex-col lg:px-6 pt-8 float-right">
-          {user && (
-            <>
-              <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
-            </>
-          )}
-        </div>
+//       <div className="text-center flex justify-center items-center flex-col">
+//         <div className="justify-center items-center flex flex-col lg:px-6 pt-8">
+//           {user && (
+//             <>
+//               <h1 className="font-bold text-xl pb-5">Hello, {user.name}! 👋</h1>
+//             </>
+//           )}
+//         </div>
         <div className="w-8/12 text-lg">
           <h1 className="pt-10 pb-10 text-red-500 font-bold text-3xl">
             Donate Today!!
