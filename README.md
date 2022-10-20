@@ -2,15 +2,14 @@
 
   <p align="center">
     <br />
-    <a href="https://www.bloodforall.life/">View Demo</a>
-    ·
+   <!-- <a href="https://www.bloodforall.life/">View Demo</a> · -->
     <a href="https://github.com/PhilipBDev/BloodForAll/issues">Report Bug</a>
     ·
     <a href="https://github.com/PhilipBDev/BloodForAll/issues">Request Feature</a>
     </p>
 
 <p align="center">
-  <a href="https://www.bloodforall.life/">
+    <!-- <a href="https://www.bloodforall.life/"> -->
     <img src="./preview.png">
   </a>
 </p>
