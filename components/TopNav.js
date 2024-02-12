@@ -16,15 +16,6 @@ const TopNav = () => {
           <Link href="/contact" className="py-4 border-b-4 font-semibold">
             <a className="hover:underline hover:bg-gray-300">CONTACT</a>
           </Link>
-          {!user && <a href="/api/auth/login">SIGN IN</a>}
-          {user && (
-            <a
-              href="/api/auth/logout"
-              className="hover:underline hover:bg-gray-300 font-semibold"
-            >
-              SIGN OUT
-            </a>
-          )}
         </div>
       </nav>
     </div>
